@@ -1,0 +1,38 @@
+<section class="cid-rgJ0MjR8q6">
+    <div class="container">
+        <div class="main-div">
+            <div class="boxes">
+                <div class="formulario-externo">
+                    <div class="mbr-overlay"></div>
+                    <h3 class="form-title">Keep your mind sharp!</h3>
+                    <h4 class="form-subtitle">Solve the next math operation</h4>
+                    <div class="fieldset" *ngIf="multiplication">
+                        <h4 class="form-title">{{multiplication.factorA}} x {{multiplication.factorB}} = </h4>
+                        <input type="tel" name="result" placeholder="Result" [(ngModel)]="result" class="input-text" maxlength="5">
+                    </div>
+                    <div class="fieldset">
+                        <h4 class="form-title">Name: </h4>
+                        <input type="text" name="result" placeholder="Name" [(ngModel)]="user.alias" class="input-text">
+                    </div>
+                    <div class="div-button">
+                        <button class="btn buttonCheck" (click)="checkOperation()">Check!</button>
+                    </div>
+                    <div *ngIf="correct==false">
+                        <h4 class="form-title">The result is incorrect!</h4>
+                    </div>
+                    <div *ngIf="correct">
+                        <h4 class="form-title">The result is correct! Congratulations!</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="formulario-externo">
+                    <div class="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

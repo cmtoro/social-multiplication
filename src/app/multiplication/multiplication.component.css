@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+.cid-rgJ0MjR8q6 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-image: url(../../assets/img/background.jpg);
+    align-items: center;
+    display: flex;
+    background-size:100% 100%;
+}
+
+.mbr-overlay {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.main-div {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    justify-content: center;
+    display: flex;
+}
+
+div {
+    font: inherit;
+}
+
+.boxes {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+}
+
+.formulario-externo {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    z-index: 1;
+    background-color: transparent;
+    padding: 3rem;
+    position: relative;
+    overflow: visible;
+    margin: auto;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.mbr-overlay {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.6;
+    background: #a5d6a7;
+    z-index: -1;
+}
+
+.form-title {
+    color: #ffffff;
+    font-family: 'Didact Gothic',sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+}
+
+.form-subtitle {
+    color: #ffffff;
+    font-family: 'Didact Gothic',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-bottom: 1em;
+}
+
+input {
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+    background: #f6f9f8;
+    font-family: 'Didact Gothic',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    border-radius: 0;
+    background-color: #ffffff;
+    margin: 0;
+    transition: 0.4s;
+    padding: 11px 1rem;
+    font: inherit;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.fieldset {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.buttonCheck {
+    padding: 5px 50px;
+    background-color: #43a047;
+    border-color: #43a047;
+    color: #ffffff;
+    font-family: 'Didact Gothic',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    box-sizing: border-box;
+    outline: none;
+}
